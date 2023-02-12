@@ -14,17 +14,6 @@
 
 body,html {
   background: 
-radial-gradient(circle closest-side at 60% 43%, #F96865 26%, rgba(187,0,51,0) 27%),
-radial-gradient(circle closest-side at 40% 43%, #F96865 26%, rgba(187,0,51,0) 27%),
-radial-gradient(circle closest-side at 40% 22%, #373737 45%, rgba(221,51,85,0) 46%),
-radial-gradient(circle closest-side at 60% 22%, #373737 45%, rgba(221,51,85,0) 46%),
-radial-gradient(circle closest-side at 50% 35%, #373737 30%, rgba(221,51,85,0) 31%),
-
-radial-gradient(circle closest-side at 60% 43%, #F96865 26%, rgba(187,0,51,0) 27%) 50px 50px,
-radial-gradient(circle closest-side at 40% 43%, #F96865 26%, rgba(187,0,51,0) 27%) 50px 50px,
-radial-gradient(circle closest-side at 40% 22%, #3c3c3c 45%, rgba(221,51,85,0) 46%) 50px 50px,
-radial-gradient(circle closest-side at 60% 22%, #3c3c3c 45%, rgba(221,51,85,0) 46%) 50px 50px,
-radial-gradient(circle closest-side at 50% 35%, #3c3c3c 30%, rgba(221,51,85,0) 31%) 50px 50px;
 	background-color:#FAFAFA;
 	background-size:100px 100px;
   height:100%;
@@ -382,13 +371,13 @@ label:hover {
 .answer--yes {
 	background-image: url('https://media.giphy.com/media/a3IWyhkEC0p32/giphy.gif');
 	background-repeat:no-repeat;
-	background-size: 500px;
+	background-size: 1000px;
 }
 
 .answer--no {
 	background-image: url('https://media.giphy.com/media/QBEhpJHrv7poQ/giphy.gif');
 	background-repeat:no-repeat;
-	background-size: 500px;
+	background-size: 1000px;
 }
 }
 input.yes[type=checkbox]:checked ~ .answer--yes {
