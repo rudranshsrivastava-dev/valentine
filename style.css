@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Loved+by+the+King);
 
+#centered {
+	width: 100%;
+	margin: 30vh auto;
+	text-align: center;
+}
+
+#centered h4 {
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: bold;
+}
+
 body,html {
   background: 
 radial-gradient(circle closest-side at 60% 43%, #323232 26%, rgba(187,0,51,0) 27%),
