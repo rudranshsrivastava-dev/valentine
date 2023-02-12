@@ -376,6 +376,9 @@ label:hover {
 	transition: opacity .5s ease-in-out;
 }
 
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  /* styles for screens between 600px and 900px */
 .answer--yes {
 	background-image: url('https://media.giphy.com/media/a3IWyhkEC0p32/giphy.gif');
 	background-repeat:no-repeat;
@@ -387,7 +390,7 @@ label:hover {
 	background-repeat:no-repeat;
 	background-size: 500px;
 }
-
+}
 input.yes[type=checkbox]:checked ~ .answer--yes {
   visibility: visible;
 	opacity: 100;
