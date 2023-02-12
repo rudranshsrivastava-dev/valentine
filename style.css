@@ -379,13 +379,13 @@ label:hover {
 .answer--yes {
 	background-image: url('https://media.giphy.com/media/a3IWyhkEC0p32/giphy.gif');
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: 500px;
 }
 
 .answer--no {
 	background-image: url('https://media.giphy.com/media/QBEhpJHrv7poQ/giphy.gif');
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: 500px;
 }
 
 input.yes[type=checkbox]:checked ~ .answer--yes {
